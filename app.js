@@ -24,7 +24,7 @@ while(exe!=='push-up'&& exe!=='sit-up')
 {
 exe = prompt('please select the type of exercise')
 }
-var img= '';
+var img = '';
 if(exe==='push-up')
 {
 
