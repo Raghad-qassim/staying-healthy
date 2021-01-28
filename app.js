@@ -37,12 +37,10 @@ else if(exe ==='sit-up'){
 exenum = prompt('how many time do you want to repeate the exercise?');
 for(var i=0;i<exenum ; i++ )
 {
-    if(exe ==='push-up')
-    {
-    
+
     document.write(img ='<img src="push-up.jpg" />');
-    
-    }
-    else if(exe ==='sit-up'){
-       document.write( img ='<img src="sit-up.jpg"/>');
-    }
+    document.write( img ='<img src="sit-up.jpg"/>');
+}
+
+
+
