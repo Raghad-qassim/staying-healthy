@@ -35,13 +35,13 @@ document.write(img ='<img src="push-up.jpg" />');
 else if(exe ==='sit-up'){
    document.write( img ='<img src="sit-up.jpg"/>');
 }
-var result=" ";
-result= exe ;
+var result =" ";
+result = img ;
 var exenum = prompt('how many time do you want to repeate the exercise?');
 for(i=0;i<exenum;i++ )
 {
 
-    result = result + exe;
+    result = result + img;
 }
 document.write(result);
 
