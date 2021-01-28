@@ -38,6 +38,8 @@ exenum = prompt('how many time do you want to repeate the exercise?');
 for(var i=0;i<exenum ; i++ )
 {
 document.write(img ='<img src="sit-up.jpg"/>')
+document.write(img ='<img src="push-up.jpg" />');
+
 }
 
 
