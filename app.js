@@ -19,6 +19,7 @@ if (BMI<18.5){
 }
 document.write('<h3>' + message +'</h3>');
 
+
 var exe = prompt('what type of exercise image you want to view push-up or sit-up?');
 while(exe!=='push-up'&& exe!=='sit-up')
 {
@@ -37,7 +38,7 @@ else if(exe ==='sit-up'){
 exenum = prompt('how many time do you want to repeate the exercise?');
 for(var i=0;i<exenum ; i++ )
 {
-    document.write(img ='<img src="push-up.jpg" />');
+  console.log(img);
   
 }
 
