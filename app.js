@@ -28,9 +28,9 @@ var img = '';
 if(exe ==='push-up')
 {
 
-img ='<img src="push-up.jpg" />';
+document.write(img ='<img src="push-up.jpg" />');
 
 }
 else if(exe ==='sit-up'){
-    img='<img src="sit-up.jpg">';
+  document.write(  img='<img src="sit-up.jpg">');
 }
