@@ -38,8 +38,8 @@ else if(exe ==='sit-up'){
 var result =" ";
 result = img ;
 var exenum = prompt('how many time do you want to repeate the exercise?');
-for(i=0 ; i<exenum ; i++ )
-{
+for( var i=0 ; i<exenum ; i++ )
+{ 
 
     
 console.log(result);
