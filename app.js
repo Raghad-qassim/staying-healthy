@@ -41,7 +41,7 @@ var exenum = prompt('how many time do you want to repeate the exercise?');
 for(i=0;i<exenum;i++ )
 {
 
-    result=result+img
+    result = result + img;
 }
 document.write(result);
 
