@@ -18,3 +18,9 @@ if (BMI<18.5){
     message = 'calculate your BMI again'
 }
 document.write('<h3>' + message +'</h3>');
+
+var exe = prompt('what type of exercise image you want to view push-up or sit-up?');
+while(exe!=='push-up'&& exe!=='sit-up')
+{
+exe = prompt('please select the write of exercise')
+}
