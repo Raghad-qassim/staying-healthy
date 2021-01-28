@@ -25,12 +25,12 @@ while(exe!=='push-up'&& exe!=='sit-up')
 exe = prompt('please select the type of exercise')
 }
 var img = '';
-if(exe==='push-up')
+if(exe ==='push-up')
 {
 
 img ='<img src="push-up.jpg" />';
 
 }
-else if(exe==='sit-up'){
-    img='<img src="sit-up.jpg">'
+else if(exe ==='sit-up'){
+    img='<img src="sit-up.jpg">';
 }
