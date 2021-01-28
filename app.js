@@ -22,5 +22,15 @@ document.write('<h3>' + message +'</h3>');
 var exe = prompt('what type of exercise image you want to view push-up or sit-up?');
 while(exe!=='push-up'&& exe!=='sit-up')
 {
-exe = prompt('please select the write of exercise')
+exe = prompt('please select the type of exercise')
+}
+var img= '';
+if(exe==='push-up')
+{
+
+img ='<img src="push-up.jpg" />';
+
+}
+else if(exe==='sit-up'){
+    img='<img src="sit-up.jpg">'
 }
