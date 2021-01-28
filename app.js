@@ -42,6 +42,6 @@ for(i=0 ; i<exenum ; i++ )
 {
 
     
-document.write(result);
+console.log(result);
 
 }
