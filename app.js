@@ -28,9 +28,10 @@ var img = '';
 if(exe ==='push-up')
 {
 
-document.write(img ='<img src="push-up.jpg" />');
+img ='<img src="push-up.jpg" />';
 
 }
 else if(exe ==='sit-up'){
-  document.write(  img='<img src="sit-up.jpg">');
+    img='<img src="sit-up.jpg">';
 }
+console.log(img);
