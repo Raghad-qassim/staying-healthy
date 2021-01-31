@@ -22,7 +22,7 @@ document.write('<h3>' + message + '</h3>');
 
 var exe = prompt('what type of exercise image you want to view push-up or sit-up?');
 while (exe !== 'push-up' && exe !== 'sit-up') {
-    exe = prompt('please select the type of exercise')
+    exe = prompt('please select the type of exercise push-up or sit-up')
 }
 var img = '';
 if (exe === 'push-up') {
